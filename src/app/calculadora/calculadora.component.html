@@ -1,0 +1,19 @@
+<div>
+  <div class="row">
+    <div >
+      <label >Operador A</label>
+      <input type="number" class="form-control" [(ngModel)]="valor1">
+    </div>
+    <div >
+      <label >Operador B</label>
+      <input type="number" class="form-control" [(ngModel)]="valor2">
+    </div>
+  </div>
+
+
+  <button class="btn btn-primary" (click)="suma()">Sumar</button>
+
+  <div>
+    <span>Resultado:{{resultado}}</span>
+  </div>
+</div>
